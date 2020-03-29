@@ -1,0 +1,25 @@
+php_value max_input_vars 5000
+php_value max_execution_time 120
+php_value upload_max_filesize 512M
+php_value post_max_size 512M
+php_value pcre.backtrack_limit 9000000
+
+DirectoryIndex index.html index.cgi index.pl index.php index.xhtml index.phtml
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond $1 !^(index\.php|robots\.txt)
+RewriteRule ^(.*)$ index.php?/$1 [L]
+
+### Jika hosting menggunakan https gunakan script dibawah ini
+#DirectoryIndex index.html index.cgi index.pl index.php index.xhtml index.phtml admin.php
+#RewriteEngine on
+#RewriteCond %{SERVER_PORT} ^80$
+#RewriteRule ^(.*)$ https://%{SERVER_NAME}%{REQUEST_URI} [L,R]
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond $1 !^(index\.php|robots\.txt)
+#RewriteRule ^(.*)$ index.php?/$1 [L]
+
+Options -Indexes
+Options All -Indexes
