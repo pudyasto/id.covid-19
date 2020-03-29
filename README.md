@@ -18,8 +18,8 @@ Aplikasi Monitoring Kasus Virus Covid-19 (Corona Virus) Khusus di negara Indones
 * Jika sudah mendapatkan key / token, isikan pada
   - KEY_MAPBOXAPI : untuk key/token dari mapbox
   - KEY_RAPIDAPI : untuk key/token dari rapidapi
-* Jalankan pada url (localhost/covid-19/public)
-* Jika menggunakan virtual host arahkan pada folder /covid-19/public
+* Jalankan pada url (localhost/id.covid-19/public)
+* Jika menggunakan virtual host arahkan pada folder /id.covid-19/public
 
 ### Tools ###
 
