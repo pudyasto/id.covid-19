@@ -1,5 +1,5 @@
-# Monitoring Covid-19
-Aplikasi Monitoring Kasus Virus Covid-19 (Corona Virus)
+# Monitoring ID-Covid-19
+Aplikasi Monitoring Kasus Virus Covid-19 (Corona Virus) Khusus di negara Indonesia
 
 ### Created By ###
 
@@ -23,10 +23,9 @@ Aplikasi Monitoring Kasus Virus Covid-19 (Corona Virus)
 
 ### Tools ###
 
-* API Kawal Corona - https://kawalcorona.com/
-* API Rapidapi corona virus - https://rapidapi.com/astsiatsko/api/coronavirus-monitor
+* bnpb-inacovid19.hub.arcgis.com - https://bnpb-inacovid19.hub.arcgis.com/datasets/
 * Open Street Map - https://www.openstreetmap.org/
-* Material Dashboard Template - https://www.creative-tim.com/product/material-dashboard
+* Kapella Dashboard Template - http://www.templatewatch.com/kapella-free/template/index.html
 * ChartJS - https://www.chartjs.org/
 * Codeigniter 3 - https://codeigniter.com/
 * HMVC - https://bitbucket.org/wiredesignz/codeigniter-modular-extensions-hmvc
